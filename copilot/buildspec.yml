@@ -14,10 +14,12 @@ phases:
       - chmod +x ./copilot-linux
   build:
     commands:
+      - echo Build started on `date`
       - echo "Run your tests"
       # - make test
   post_build:
     commands:
+      - echo Build completed on `date`
       - ls -l
       - export COLOR="false"
       # First, upgrade the cloudformation stack of every environment in the pipeline.
