@@ -15,5 +15,5 @@
 # vendor/
 
 # --- Add by me
-.workspace
+#.workspace # use by copilot pipeline
 .minikube
