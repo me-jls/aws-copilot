@@ -118,6 +118,6 @@ phases:
       #       docker push $repo;
       #     done;
       #   done;
-artifacts:
-  files:
-    - "infrastructure/*"
+# artifacts:
+#   files:
+#     - "infrastructure/*"
