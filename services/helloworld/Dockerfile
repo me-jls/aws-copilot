@@ -2,8 +2,7 @@ FROM python:3.8-slim-buster
 
 WORKDIR /app
 
-RUN echo "FLask" > requirements.txt
-RUN pip3 install -r requirements.txt
+RUN pip3 install FLask
 
 COPY . .
 
