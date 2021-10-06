@@ -2,6 +2,6 @@
 Test Aws Copilot Pipeline
 
 Execute :
-- create file : `copilot/pgw-github/manifest.yml`
-- `copilot svc init -n pgw-github --port 9091 -t "Load Balanced Web Service" -i prom/pushgateway:v1.4.1`
-- `copilot svc deploy --name pgw-github`
+- create file : `copilot/helloworld/manifest.yml`
+- `copilot svc init --name helloworld -t "Load Balanced Web Service" -d ./services/helloworld/Dockerfile --port 5000`
+- `copilot svc deploy --name helloworld`
