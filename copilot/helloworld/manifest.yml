@@ -14,7 +14,7 @@ image:
   port: 5000
   labels:
     ECS_PROMETHEUS_EXPORTER_PORT: 5000
-    JLS: v1
+    JLS: 2021-10-06-15h42
   
 cpu: 256
 memory: 512
